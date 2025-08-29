@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Outfit';
+  src: url('fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* full range of supported weights */
+  font-style: normal;   /* or font-style: normal italic if both are supported */
+}
+
+body{
+    margin: 0;
+    font-family: Outfit,sans-serif;
+}
+
+main{
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+img{
+    max-width: 100%;
+}
+.card{
+    width:200px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main-image{
+    border-radius: 5px;
+}
+
+.main-heading{
+    font-size: 18px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.eth-text{
+    color: hsl(178, 100%, 50%);
+}
+
+.div-eth{
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-bottom: 10px;
+}
+
+.div-creator{
+    gap:7px;
+    height: 30px;
+}
+
+.avatar{
+    width:10%;
+}
+
+.avatar img{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.card p, .card h1{
+    margin: 0;
+}
+
+.div-eth img{
+    width:10px;
+}
+
+.div-eth div {
+    gap:5px;
+}
+
+.grey{
+    color: hsl(215, 51%, 70%);
+}
+
+.jules:hover,.main-heading:hover{
+color: hsl(178, 100%, 50%);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-image-container{
+    /* background-color:red; */
+    background-image: url(assets/images/image-equilibrium.jpg);
+    background-size: cover;        /* Ensures the image covers the entire container */
+    background-position: center;   /* Centers the image */
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 180px;
+    border-radius: 5px;
+}
